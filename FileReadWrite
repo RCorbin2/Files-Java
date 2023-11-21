@@ -113,25 +113,25 @@ public class FileReadWrite{
 			w.close();
 		}
 
-    //catch IOException
-		catch (IOException e){
-			System.out.println("IOException: " + e);
-		}
+              //catch IOException
+	      catch (IOException e){
+	      System.out.println("IOException: " + e);
+	      }
 
-    //catch arrayindesoutofboundsexception
-		catch(ArrayIndexOutOfBoundsException e){ 
-            System.out.println ("Array index is out of bounds: " + e);
-		}
+             //catch arrayindesoutofboundsexception
+	     catch(ArrayIndexOutOfBoundsException e){ 
+             System.out.println ("Array index is out of bounds: " + e);
+	     }
 
-    //catch numberformatexception
-		catch(NumberFormatException e){ 
-            System.out.println("Number format exception: " + e); 
-    } 
+             //catch numberformatexception
+	     catch(NumberFormatException e){ 
+             System.out.println("Number format exception: " + e); 
+             } 
 
-    //catch arithemticexception 
-		catch(ArithmeticException e){ 
-            System.out.println ("Arithmetic exception: " + e); 
-    } 
+             //catch arithemticexception 
+	     catch(ArithmeticException e){ 
+             System.out.println ("Arithmetic exception: " + e); 
+             } 
 		
 		
 	}
